@@ -5,68 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto+Condensed|Roboto:400,700" rel="stylesheet">
+
+
 </head>
 <body>
     
     <header>
-        <section id="logo">
-    
-            <img src=”recursos/img/logo.jpg”
-            alt="logo">
-    
-        </section>
-    
-        <section id="index">
-    
-            <ul class="index">
-                <li><a href="#inicio">Inicio</a></li> 
-                <li><a href="#CV">CV</a></li> 
-                <li><a href="#contacto">Contacto</a></li> 
-            </ul>
-                    
-        </section>
+       
+        <div>
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="began" width="500px" height="150px">
+       
+        </div>
 
+        <nav class="nav1">
+            <ul class="index">
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="cv.html">CV</a></li> 
+                <li><a href="contacte.html">Contacto</a></li> 
+            </ul>
+                
+                
+    </nav>
     </header>
 
-        <h1 id="contacto">Contacto</h1>
-        <img src=”recursos/img/imatge.jpg”>
- 
-    </section>
+    <div class="contenedor">
 
-    <section id="form">
+        <div class="contacto">
+            <img class="" src="https://media.licdn.com/dms/image/C4D16AQGD0GJY0mX2Tw/profile-displaybackgroundimage-shrink_350_1400/0/1568813175797?e=1678320000&v=beta&t=0o3gEDLY-W9JaoLgIEzxHB_rifQFf9iBziimDiEErYY" alt="began"/>
+            <div class="contacto2">  
+            <h1>Contacto</h1></div>
+        </div>
+        
+        <div class="form2">
 
-        <h2 id="titol">Parlem!</h2>
+            <form action="">
+                <h2 id="titol">Parlem!</h2>
 
-        <form action="">
-           
-               <label for="name">Nombre:</label>
-               <input type="text" id="name" name="user_name">
+               <label for="name">Nombre:</label><br>
+               <input type="text" id="name" name="user_name"> <br><br>
              
-               <label for="mail">Correo electrónico:</label>
-               <input type="email" id="mail" name="user_mail">
-             
-               <label for="msg">Mensaje:</label>
-               <textarea id="msg" name="user_message"></textarea>
+               <label for="mail">Correo electrónico:</label><br>
+               <input type="email" id="mail"  name="user_mail"> <br><br>
+            
+               <label for="mensaje">Mensaje</label>
+               <textarea name="mensaje" for="mensaje" placeholder="Deja tu mensaje aquí." maxlength="300"></textarea>
                
                 <div>
                 <input type="checkbox" id="politica" name="aceptar_politica"> He leido y acepto la <a href="https://www.aepd.es/es/politica-de-privacidad-y-aviso-legal">politica de privacidad.</a></div> 
-               <div>
-                <input type="submit" value="Enviar"></div>
+               <br>
+               <button>Enviar</button>
 
-           </form>
-        
+            </form>
+        </div>
 
-    </section>
+         </div>
+
+    </div>
+
+    <div class="footer">
 
     <footer>
-        <section id="footer">
+
         
             <a title="twitter" href="https://twitter.com/"><img src=”recursos/img/twitter.jpg”></a>
             <a title="linkedin" href="https://www.linkedin.com/"><img src=”recursos/img/linkedin.jpg”></a>    
             <a title="Instagram" href="https://www.linkedin.com/"><img src=”recursos/img/instagram.jpg”></a>
         
                     
-        </section>
         </footer>
+
+    </div>
+
 </body>
 </html>
