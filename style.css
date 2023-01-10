@@ -3,149 +3,66 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  width: 1400px;
-  margin: 0;
+  max-width: 1200px;  
+  margin: auto;
   line-height: 19px;
 
 }
-header {
-  width: 100%;
-  height: 100%;
-  }
- 
-.form2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.logo {
+  width: 30px;
+  height: 30px;
   padding: 20px;
-  
+  float: left;
 }
 
-
-form input[type="text"],
-form input[type="email"] {
-	width:180px;
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	margin:8px 0;
-	display:inline-block;
+.nav1 ul li {
+  float: right;
 }
 
-textarea{
-	width:100%;
-	height:100px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;			
-	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
-	resize:none;
-	display:block;
-}
-
-
-
-form input[type="checkbox"]{
-	padding:3px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;
-	margin:8px 0;
-	display:inline-block;
-}
-button {
-  font-weight: bold;
-  cursor: pointer;
-  padding: 15px;
-  margin: auto;
-  border: 1px solid #ccc;
-  background: #eee;
-  border-radius: 8px 8px 8px 8px;
-  display:block;
-  margin:auto;
-}
-
-button:hover {
-  background: rgb(0, 0, 0);
-  color: #b5b5b5;
-}
-
-  .footer {
-  background-color: #b5b5b5;
-  width: 100%;
-padding: 10px;  
-height: 50px;
-display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-  .logo {
-    width: 30px;
-    height: 30px;
-    padding: 20px;
-    float: left;
-  }
-
-  .nav1 ul li {
-    float: right;
-  }
- 
-  .nav2 ul {
-  text-align: center;
+.nav2 ul {
+text-align: center;
 }
 
 .nav2 li {
-  float: none !important;
-  display: inline-block;
+float: none !important;
+display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px;
+
+}
+nav ul li:hover {
+  text-decoration:  overline ;
+  font-weight: bold;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  background-image: url("header_mbl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  
-  nav ul {
-    list-style: none;
-    overflow: hidden; 
-  }
 
-
-  nav ul li a {
-    display: block;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 20px;
-
-  }
-  nav ul li:hover {
-    text-decoration:  overline ;
-    font-weight: bold;
-
-  }
- 
-  .contacto {
-    position: relative;
-    display: inline-block;
-    width: 1240px;
-    height: 200px;
-  }
-
- 
-  .contacto2 {
-position: absolute;
-top: 50%;
-left: 50%;
-
-  }
-
-  .imag-fondo {
-  width: auto;
-    }
-
-
- h1  {
+h1  {
   font-size: 50px;
-   color: aliceblue;
+   color: rgb(255, 255, 255);
       
 }
 
@@ -155,67 +72,327 @@ h2  {
   padding-top: 50px; 
   padding-bottom: 20px;
 }
+ .idiomas {
+  margin-bottom: 40px;
+ }
 
-.experienciatext  {
-  color: #f6f6f6;
- 
-}
-
-h3 
-{
-text-decoration: underline;   
-}
-
-
-.datos-personales, .formacion, .intro  {
-background-color:#f6f6f6;
-padding-left: 50px;
-padding-top: 10px;
-padding-bottom: 20px;
+.textohola {
+  width: 100%;
+  float: left;
+  text-align: left;
+  }
+  
+.hola {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
-.experiencia, .idiomas {
-padding-left: 50px;
-padding-top: 10px;
-padding-bottom: 20px;
+
+
+  .proyectos {
+    text-align: center;
+    clear: both;
+  
+  }
+
+  div.proyecto {
+    margin: 1%;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    width: auto;
+    padding-bottom: 20px;
+    
+  }
+  
+  div.proyecto:hover {
+    border: 1px solid #777;
+  }
+  
+  div.proyecto img {
+    width: 100%;
+    height: auto;
+  
+  }
+
+  button {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+    display:block;
+    margin:auto;
+  }
+  
+  button:hover {
+    background: rgb(0, 0, 0);
+    color: #b5b5b5;
+  }
+
+  ul {
+    padding-inline-start: 0px !important;
+}
+
+  .experienciasindex {
+    background-color:rgb(0, 0, 0);
+    clear: both;
+    text-align: center;
+  
+    
+    }
+    .experienciaindex {
+      display: inline-block;
+    }
+    
+    div.experienciaindex img {
+      width: 50%;
+      height: auto;
+      padding-bottom: 30px;
+    }
+
+    .datos-personales, .intro, .formacioncv  {
+background-color: #f6f6f6;
+      padding-bottom: 2%;
+        }
+      
+        
+      .formacion {
+        clear:both;
+        height: 100%;
+      }
+      
+      .datos-personales {
+        text-align: center;
+      }
+      
+      .experienciacv {
+        padding-left: 5%;
+
       }
 
-.experiencia1 {
-width: 50%;
-height: 100%;
-padding-right: 5%;
-float:left;
-top: 50%;
-left: 50%;
-}
 
-.experiencia2 {
-padding-right: 5%;
-top: 50%;
-left: 50%;
-}
+      .formacioncv, .idiomas {
+        clear: both;
+        text-align: center;
+      }
 
-.formacion {
-  clear:both;
-  height: 100%;
-}
 
-table {
-  border-spacing: 30px;
+      .experiencia1 {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+  
+        }
+        
+        .experiencia2 {
+          width: 90%;
+          height: 100%;
+          margin: auto;
+
+  
+        }
+        
+        .experiencia3 {
+          width: 90%;
+          height: 100%;
+          margin: auto;
+
+  
+          }
+  
+          h3 {
+            text-decoration: underline;
+            }
+
+
+  .form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width:180px;
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+  }
+  
+  textarea{
+    width:100%;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;			
+    margin:8px 0;
+    resize:none;
+    display:block;
+  }
+  
+  
+  form input[type="checkbox"]{
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+  }
+
+  
+  .experienciatext  {
+    color: #f6f6f6;
+  }
+  
+  table{
+    margin: auto;
+    border-spacing: 30px;
+    text-align: center;
+    }
+    
+  table th {
+    background-color:#D9D9D9;
+    padding: 20px;
+    width: 342px;
+    border-radius: 6px;
+  
+  }
+  .copiaficiones {
+    margin: 3%
+  }
+  
+  .imagaficiones {
+    height: 50%;
+    padding-top: 2px;
+  }
+
+
+  .footer {
+    background-color: #b5b5b5;
+    width: 100%;
+    padding: 10px;  
+   background-color: #222222;
+   height: 128px;  display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .footer img {
+   margin: 10px;
+
+  } 
+  
+
+@media screen and (min-width: 600px) {
+  .header {
+    background-image: url("heder_tablet.png");
+  }
+  .textohola {
+    width: 100%;
+    float: left;
+    text-align: left;
+    }
+    .proyectos {
+      text-align: center;
+      clear: both;
+      margin: auto;
+    
+    }
+  
+    div.proyecto {
+      margin: 2%;
+      margin-bottom: 50px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 45%;
+      padding-bottom: 20px;
+      
+    }
+    
+    div.proyecto:hover {
+      border: 1px solid #777;
+    }
+    
+    div.proyecto img {
+      width: 100%;
+      height: auto;
+    
+    
+    }
+
+    .experiencia1 {
+      width:48%;
+      height: 100%;
+      padding-right: 2%;
+      float:left;
+      margin: auto;
+
+      }
+      
+      .experiencia2 {
+        width: 48%;
+        height: 100%;
+        padding-right: 2%;
+        float:left;
+        margin: auto;
+
+      }
+      
+      .experiencia3 {
+        width: 48%;
+      height: 100%;
+      padding-right: 2%;
+      float:left;
+      margin: auto;
+
+        }
+
+
+
+        h3 {
+          text-decoration: underline;
+          text-align: center;   
+          }
+
+
+}  
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-image: url("header_pc.png");
+
+}
+.textohola {
+  width: 60%;
+  float: left;
+  text-align: left;
+  }
+.fotohola {
+  width: 35%;
+  height: auto;
+  padding-top: 20px;
+}
+.hola {
   text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
-.datos-personales {
-  text-align: center;
-}
-
-
 .proyectos {
   text-align: center;
   clear: both;
-
 }
-
 
 div.proyecto {
   margin: 1%;
@@ -224,7 +401,6 @@ div.proyecto {
   float: left;
   width: 31%;
   padding-bottom: 20px;
-  
 }
 
 div.proyecto:hover {
@@ -234,59 +410,63 @@ div.proyecto:hover {
 div.proyecto img {
   width: 100%;
   height: auto;
-
 }
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.experienciasindex {
-background-color:rgb(0, 0, 0);
-clear: both;
-text-align: center;
-padding-bottom: 30px;
-
-
-
-}
-.experienciaindex {
-  display: inline-block;
-}
-
-div.experienciaindex img {
-  width: 60%;
-  height: auto;
-
-}
-
-.textohola {
-width: 60%;
-float: left;
-text-align: left;
-}
-
-.hola {
-  text-align: center;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-table th {
-  background-color: #D9D9D9;
-  padding: 10px;
-  width: 342px;
-  text-align:left;
-
-  
-}
-
 table{
-margin: auto;
+  margin: auto;
+  border-spacing: 30px;
+  text-align: center;
+  }
+  
+table th {
+  background-color:#D9D9D9;
+  padding: 20px;
+  width: 342px;
+  border-radius: 6px;
+
+}
+.copiaficiones {
+  float: left;
+  margin: 3%
 }
 
-th img {
-vertical-align: middle;
+.imagaficiones {
+  float: right;
+  height: 50%;
+}
+
+.experiencia1 {
+  width: 30%;
+  height: 100%;
+  padding-right: 2%;
+  float:left;
+  margin: auto;
+
+  }
+  
+  .experiencia2 {
+    width: 30%;
+    height: 100%;
+    padding-right: 2%;
+    float:left;
+    margin: auto;
+
+  }
+  
+  .experiencia3 {
+    width: 30%;
+  height: 100%;
+  padding-right: 2%;
+  float:left;
+  margin: auto;
+
+    }
+
+  h3 {
+      text-decoration: underline;
+      text-align: center;   
+    
+      }
+
 
 }
+
