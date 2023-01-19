@@ -1,5 +1,3 @@
-
-
 var num1 = prompt('Escribe un numero del 1 al 50');
 
 if (num1 < 1){
@@ -66,7 +64,7 @@ for (var i = num1; i < num2; i++) {
     }
 }
  
-for (var i = num2; i < num1; i++) {
+for (var i = num1; i > num2; i--) {
     if (i % 2 != 0) {        
             document.write(" " + i);
     }
@@ -80,4 +78,3 @@ if(num1===num2){
     }else{
     
 }
- 
